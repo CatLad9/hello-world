@@ -1,0 +1,7 @@
+a instalação do postgresql foi por meio do terminal do linux, através do comando "sudo apt install postgresql postgresql-contrib"
+o terminal pede a senha do administrador e pede a confirmação do usuário para baixar o pacote.
+uma vez instalado ele pode ser acessado usando "sudo -i -u postgres" e depois "psql"
+uma vez que o prompt do postgre foi acessado é possível criar usuários e tabelas com os comandos respectivos:
+"createuser --interactive" e depois digitando o nome de usuário após apertar "enter" e o programa irá perguntar se deseja que o usuário seja um "super-usuário"
+"createdb 'nome do banco'" para criar o banco de dados. 
+para consultar os dados no banco o comando é "'nomedobanco'=# SELECT*FROM 'nomedatabela'" 
