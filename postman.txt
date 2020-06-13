@@ -1,0 +1,10 @@
+O postman é uma API para testar requisições HTTP.
+é possível baixar o postman através do comando:
+"wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz" (para sistemas 64bit).
+após baixar o pacote é necessário descompactar o pacote através do comando:
+"sudo tar -xzf postman.tar.gz -C /opt"
+e então é necessário criar um atalho para a execução do programa, pode ser facilmente feito atravé de:
+"sudo ln -s /opt/Postman/Postman /usr/bin/postman"
+também é possivel criar um lançador do postman para a interface gráfica, porém meu sistema não conseguiu executa-lo
+"cat > ~/.local/share/applications/postman.desktop"
+feito isso é possível iniciar o postman no terminal simplesmente digitando o comando "postman" e dando enter.
